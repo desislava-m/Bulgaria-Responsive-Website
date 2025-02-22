@@ -22,7 +22,6 @@ body {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 772px;
 }
 
 .header-section::before {
@@ -75,8 +74,9 @@ body {
 
 .login-buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evently;
     width: 196px;
+    gap: 32px
     
 }
 
@@ -89,6 +89,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     color: white;
+    font-family: inherit;
 }
 
 .login-button {
@@ -104,6 +105,7 @@ body {
     color: var(--white);
     font-size: 16px;
     font-weight: 600;
+    font-family: inherit;
 }
 
 .hero-section {
@@ -115,6 +117,7 @@ body {
 
 .display {
     font-size: 66px;
+    font-family: inherit;
     font-weight: 600;
     color: var(--white);
     line-height: 120%;
@@ -128,5 +131,29 @@ body {
     max-width: 608px;
     margin-top: 0;
     margin-bottom: 40px;
+    font-family: inherit;
+}
+
+.hero-section button {
+    margin-bottom: 140px;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.h2 {
+    color: var(--white);
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.p1 {
+    font-size: 18px;
+    font-weight: 400;
 }
 
