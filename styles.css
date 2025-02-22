@@ -10,10 +10,19 @@
     font-family: 'DM Sans', Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .header-section {
     background-image: url(./images/places-to-visit-in-bulgaria.jpg);
     border-radius: 16px;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 772px;
 }
 
 .header-section::before {
@@ -36,13 +45,12 @@
 
 .nav-links {
     display: flex;
-    gap: 48px;
-    margin-left: 8px;
 }
 
 .navigation-container ul {
     display: flex;
     justify-content: space-between;
+    width: 453px;
     list-style: none;
     align-content: center;
 }
@@ -50,7 +58,7 @@
 .logo {
     display: flex;
     align-content: center;
-    max-height: 30px;
+    
 }
 
 .navigation-container a {
@@ -60,8 +68,8 @@
 
 .login-buttons {
     display: flex;
-    gap: 12px;
-    margin-left: 92px;
+    justify-content: space-between;
+    width: 196px;
 }
 
 .p2 {
@@ -73,4 +81,23 @@
     font-size: 16px;
     font-weight: 600;
     color: white;
+}
+
+.login-button {
+    background-color: transparent;
+    border: none;
+}
+
+.black-button {
+    background-color: var(--black);
+    padding: 12px 20px;
+    border-radius: 40px;
+    border: none;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
