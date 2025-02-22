@@ -1,0 +1,39 @@
+:root {
+    --primary: #002E74;
+    --accent: #1D6DEC;
+    --grey: #4F4F53;
+    --black: #000000;
+    --white: #FFFFFF;
+    --background: #F5F5F5;
+    --background-2: #E5E5E5;
+
+    font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+}
+
+.header-section {
+    background-image: url(./images/places-to-visit-in-bulgaria.jpg);
+}
+
+.navigation-container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-container ul {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    list-style: none;
+    align-content: center;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    max-height: 30px;
+}
+
+.navigation-container a {
+    color: var(--white);
+    text-decoration: none;
+}
