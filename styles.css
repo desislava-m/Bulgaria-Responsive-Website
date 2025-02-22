@@ -12,17 +12,37 @@
 
 .header-section {
     background-image: url(./images/places-to-visit-in-bulgaria.jpg);
+    border-radius: 16px;
+    position: relative;
+}
+
+.header-section::before {
+    content: '';
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    left: -1px;
+    bottom: -1px;
+    background: var(--black);
+    border-radius: 16px;
+    z-index: -1; 
 }
 
 .navigation-container {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 48px;
+    margin-left: 8px;
 }
 
 .navigation-container ul {
     display: flex;
     justify-content: space-between;
-    width: 600px;
     list-style: none;
     align-content: center;
 }
@@ -36,4 +56,21 @@
 .navigation-container a {
     color: var(--white);
     text-decoration: none;
+}
+
+.login-buttons {
+    display: flex;
+    gap: 12px;
+    margin-left: 92px;
+}
+
+.p2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
 }
