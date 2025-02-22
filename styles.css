@@ -295,6 +295,7 @@ body {
     justify-content: space-between;
     gap: 40px;
     padding-left: 31px;
+    margin-bottom: 100px;
 }
 
 .platform-text {
@@ -353,5 +354,81 @@ body {
     margin-bottom: 0;
 }
 
+.hotel-section-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
 
+.hotel-section-headline {
+    margin-bottom: 16px;
+}
+
+.hotel-section-text p {
+    margin-top: 0;
+}
+
+.hotel-images {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    max-width: 430px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-image {
+    max-height: 400px;
+    display: block;
+    border-radius: 20px;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    /* padding: 12px 16px; */
+    border-radius: 0 0 20px 20px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.card-location {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.card-price {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.card-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #FFD700;
+    padding: 4px 8px;
+    border-radius: 12px;
+    align-self: flex-end;
+}
 
