@@ -175,6 +175,10 @@ body {
     
 }
 
+.explore-section {
+    margin-bottom: 80px;
+}
+
 .explore-text p {
     display: flex;
     justify-content: center ;
@@ -284,4 +288,70 @@ body {
     font-size: 28px;
     font-weight: 400;
 }
+
+.our-platform-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 31px;
+    
+}
+
+.platform-text {
+    max-width: 583px;
+}
+
+.platform-text h1{
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.platform-text p {
+    margin-bottom: 48px;
+   
+}
+
+.platform-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 576px;
+    max-height: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.platform-image img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+}
+
+.platform-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+}
+
+.travel-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+  
+    
+}
+
+.travel-step h3 {
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.travel-step p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
 
