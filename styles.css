@@ -291,10 +291,10 @@ body {
 
 .our-platform-section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    gap: 40px;
     padding-left: 31px;
-    
 }
 
 .platform-text {
@@ -321,26 +321,26 @@ body {
     max-height: 480px;
     border-radius: 10px;
     overflow: hidden;
+    margin-top: 50px;
+    
 }
 
 .platform-image img {
     width: 100%; 
-    height: auto;
     object-fit: cover;
 }
 
 .platform-steps {
     display: flex;
     flex-direction: column;
-    gap: 24px
+    gap: 24px;
+    margin-bottom: 48px;
 }
 
 .travel-step {
     display: flex;
     align-items: flex-start;
     gap: 24px;
-  
-    
 }
 
 .travel-step h3 {
