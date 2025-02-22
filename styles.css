@@ -22,7 +22,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 772px;
+    height: 772px;
 }
 
 .header-section::before {
@@ -40,7 +40,12 @@ body {
 .navigation-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 27.5px;
+}
+
+.logo-and-links {
+    display: flex;
 }
 
 .nav-links {
@@ -58,7 +63,8 @@ body {
 .logo {
     display: flex;
     align-content: center;
-    
+    width: auto;
+    align-items: center;
 }
 
 .navigation-container a {
@@ -70,6 +76,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 196px;
+    
 }
 
 .p2 {
@@ -101,3 +108,4 @@ body {
     align-items: center;
     text-align: center;
 }
+
