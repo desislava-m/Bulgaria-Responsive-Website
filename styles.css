@@ -688,3 +688,123 @@ ul.footer-nav  {
     gap: 16px;
     margin-top: 16px;
 }
+
+@media (max-width: 1200px) {
+  .transparent-btn {
+    font-size: 14px;
+  }
+
+  .black-button {
+    font-size: 14px;
+  }
+
+  .cta-buttons {
+    padding-left: 0;
+  }
+
+  .platform-text {
+    max-width: 450px;
+}
+
+  .cta-heading {
+    font-size: 24px;
+  }
+
+  .cta-paragraph {
+    font-size: 16px;
+  }
+
+  .cta-text {
+    padding-right: 0;
+    max-width: 400px;
+  }
+
+  .header-2 {
+    font-size: 24px;
+  }
+
+  .heading-1 {
+    font-size: 35px;
+  }
+
+  .platform-text h1{
+    font-size: 35px;    
+}
+
+.hotel-section-headline {
+    font-size: 35px;
+}
+
+  .subscribe-label {
+    font-size: 14px;
+  }
+
+  .footer-paragraph {
+    font-size: 14px;
+  }
+
+  .footer-nav {
+    width: 300px
+  }
+
+  .footer-nav a {
+    font-size: 14px;
+  }
+
+  .copyrights-text {
+    font-size: 14px;
+  }
+
+  .copyrights-buttons a {
+    font-size: 14px;
+  }
+
+  .subscribe-wrapper {
+    width: 400px;
+  }
+
+  .subscribe-input {
+    font-size: 14px;
+  }
+  .white-button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+    .footer-paragraph {
+        padding-right: 20px;
+    }
+
+    .header-2 {
+        font-size: 20px;
+      }
+
+    .heading-1 {
+        font-size: 30px;
+    }  
+
+    .platform-text h1{
+        font-size: 30px;    
+    }
+    
+    .hotel-section-headline {
+        font-size: 30px;
+    }
+
+    .display {
+        font-size: 55px;
+    }  
+
+    .numbers {
+        font-size: 24px;
+    }
+
+    .p1 {
+        font-size: 16px;
+    }
+
+    .explore-section, .our-platform-section, .hotels-section  {
+        margin-bottom: 60px;
+    }
+}
