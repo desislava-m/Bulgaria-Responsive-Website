@@ -817,8 +817,20 @@ ul.footer-nav  {
 @media (max-width: 992px) {
     .burger-menu {
         display: inline;
+        position: absolute;
+        right: 50px;
     }
     
+    .logo-and-links {
+        margin: 0 auto;
+      }
+
+      .navigation-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+      }
 
     .navigation-container ul {
         display: none;
