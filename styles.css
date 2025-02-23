@@ -378,7 +378,7 @@ body {
 
 .hotel-images {
     display: flex;
-    gap: 20px;
+    gap: 24px;
     flex-wrap: wrap; 
     justify-content: center; 
     margin-bottom: 40px;
@@ -530,7 +530,7 @@ body {
     align-items: flex-start;
     height: 226px;
     border-radius: 16px;
-    max-width: 1216px;
+    width: 1216px;
 }
 
 .cta-buttons {
