@@ -215,7 +215,7 @@ body {
 
 .explore-card-1 {
    width: 100%;
-   background-image: url(/images/200819101951-07-reconnect-bulgaria-highlights-nessebar.jpg);
+   background-image: url(./images/200819101951-07-reconnect-bulgaria-highlights-nessebar.jpg);
    position: relative;
    max-width: 430px;
    height: 400px;
@@ -242,7 +242,7 @@ body {
 
 .explore-card-2 {
    width: 100%;
-   background-image: url(/images/plovdiv-4.jpg);
+   background-image: url(./images/plovdiv-4.jpg);
    position: relative;
    max-width: 430px;
    height: 400px;
@@ -269,7 +269,7 @@ body {
 
 .explore-card-3 {
    width: 100%;
-   background-image: url(/images/1+-+15.jpeg);
+   background-image: url(./images/1+-+15.jpeg);
    position: relative;
    max-width: 430px;
    height: 400px;
