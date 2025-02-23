@@ -991,11 +991,11 @@ ul.footer-nav  {
 
 @media (max-width: 568px) {
     .display {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .header-section p {
-        width: 400px;
+        width: 320px;
     }
 
     .subscribe-wrapper {
@@ -1019,4 +1019,16 @@ ul.footer-nav  {
         align-items: center;
     }
 
+  
+
+    .footer-nav {
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .card-info {
+        width: 300px;
+    }
 }
