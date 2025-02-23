@@ -43,6 +43,10 @@ body {
     margin-bottom: 147.5px;
 }
 
+.burger-menu {
+    display: none;
+}
+
 .logo-and-links {
     display: flex;
 }
@@ -806,5 +810,20 @@ ul.footer-nav  {
 
     .explore-section, .our-platform-section, .hotels-section  {
         margin-bottom: 60px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .burger-menu {
+        display: inline;
+    }
+
+    .navigation-container ul {
+        display: none;
+    }
+
+    .login-buttons {
+        display: none;
     }
 }
