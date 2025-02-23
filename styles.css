@@ -362,6 +362,10 @@ body {
     text-align: center; 
 }
 
+.hotels-section {
+    margin-bottom: 160px;
+}
+
 .hotel-section-headline {
     margin-bottom: 16px;
     font-weight: 500;
@@ -458,7 +462,9 @@ body {
 
 .review-cards-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(auto, 400px));
+    gap: 24px;
+    justify-content: center;
 }
 
 .review-card {
@@ -475,10 +481,10 @@ body {
     margin-bottom: 72px;
 }
 
+
 .image-container {
     display: flex;
     flex-direction: column;
-    max-width: 180px ;
 }
 
 .person-image {
@@ -506,4 +512,8 @@ body {
 .quote p {
     margin-top: 0;
     margin-bottom:  0;
+}
+
+.review-heading {
+    text-align: center;
 }
