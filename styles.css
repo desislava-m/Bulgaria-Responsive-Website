@@ -852,4 +852,12 @@ ul.footer-nav  {
     .cta-text {
         padding: 20px 0 0 40px;
     }
+
+    .footer-banner {
+        flex-direction: column;
+    }
+
+    .subscribe-container {
+        margin-bottom: 30px;
+    }
 }
