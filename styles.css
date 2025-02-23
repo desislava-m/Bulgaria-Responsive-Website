@@ -860,6 +860,10 @@ ul.footer-nav  {
         text-align: center;
    }
 
+   .platform-image {
+    width: 100%;
+}
+
    .travel-step {
         flex-direction: column;
         align-items: center;
@@ -874,14 +878,16 @@ ul.footer-nav  {
     .cta-banner {
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
     }
 
     .cta-buttons {
-        padding: 0 0 20px 40px;
+        padding: 0 0 20px 0px;
     }
 
     .cta-text {
-        padding: 20px 0 0 40px;
+        padding: 20px 0 0 0px;
+        text-align: center;
     }
 
     .footer-banner {
@@ -898,5 +904,98 @@ ul.footer-nav  {
 
     .quote {
         text-align: center;
+        margin-bottom: 50px;
     }
+
+    .metrics {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-section button {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .display {
+        font-size: 48px;
+    }
+
+    .header-section p {
+        width: 500px;
+    }
+
+    .heading-1 {
+        font-size: 28px;
+    }
+
+    .explore-text {
+        max-width: 500px;
+    }
+
+    .platform-text h1{
+        font-size: 28px;    
+    }
+
+    .platform-image {
+        width: 100%;
+    }
+    
+    .hotel-section-headline {
+        font-size: 28px;
+    }
+
+    .hotel-section-text {
+        align-items: center;
+    }
+
+    .hotel-section-paragraph {
+        max-width: 500px;
+    }
+
+    .footer-paragraph {
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+
+    .footer-nav a {
+        font-size: 11px;
+    }
+
+    .subscribe-input {
+        font-size: 11px;
+    }
+
+    .white-button {
+        font-size: 11px;
+    }
+
+    .subscribe-label {
+        font-size: 11px;
+    }
+
+    .footer-logo {
+        max-width: 160px;
+    }
+
+    .copyrights-text {
+        font-size: 11px;
+    }
+
+    .copyrights-buttons {
+        font-size: 11px;
+    }
+
+}
+
+@media (max-width: 568px) {
+    .display {
+        font-size: 40px;
+    }
+
+    .header-section p {
+        width: 400px;
+    }
+
 }
