@@ -96,6 +96,7 @@ body {
 .login-button {
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .black-button {
@@ -107,6 +108,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     font-family: inherit;
+    cursor: pointer;
 }
 
 .hero-section {
@@ -460,6 +462,11 @@ body {
     justify-content: center;
 }
 
+
+.review-section {
+    margin-bottom: 80px;
+}
+
 .review-cards-list {
     display: grid;
     grid-template-columns: repeat(3, minmax(auto, 400px));
@@ -516,4 +523,53 @@ body {
 
 .review-heading {
     text-align: center;
+}
+
+.cta-banner {
+    background-color: var(--background);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 226px;
+    border-radius: 16px;
+    max-width: 1216px;
+}
+
+.cta-buttons {
+    display: flex;
+    align-items: center;
+    padding: 64px;
+    gap: 12px;
+}
+
+.transparent-btn {
+    background-color: transparent;
+    padding: 12px 20px;
+    border-radius: 40px;
+    border: 1px solid var(--grey);
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.cta-heading {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.cta-paragraph {
+    margin-top: 0;
+    max-width: 548px;
+    color: var(--grey);
+}
+
+.cta-text {
+    padding: 64px;
+}
+
+.cta-section {
+    display:flex;
+    justify-content: center;
 }
