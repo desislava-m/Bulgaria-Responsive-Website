@@ -891,4 +891,12 @@ ul.footer-nav  {
     .subscribe-container {
         margin-bottom: 30px;
     }
+
+    .image-container {
+        align-items: center;
+    }
+
+    .quote {
+        text-align: center;
+    }
 }
