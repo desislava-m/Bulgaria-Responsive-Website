@@ -573,3 +573,23 @@ body {
     display:flex;
     justify-content: center;
 }
+
+.footer-banner {
+    background-color: var(--black);
+}
+
+.footer-paragraph {
+    color: var(--white);
+}
+
+.subscribe-label {
+    color: var(--white);
+}
+
+.copyrights-text {
+    color:var(--white);
+}
+
+.copyrights-buttons a {
+    color: var(--white);
+}
