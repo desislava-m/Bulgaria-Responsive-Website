@@ -455,3 +455,55 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.review-cards-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.review-card {
+    border: 1px solid #E5E5E5;
+    border-radius: 16px;
+    text-align: left;
+    max-width: 400px;
+    height: auto;
+}
+
+
+.quote {
+    max-width: 336px;
+    margin-bottom: 72px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 180px ;
+}
+
+.person-image {
+    max-width: 56px;
+    margin-bottom: 8px;
+}
+
+.person-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.job-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.card-content {
+    margin: 32px;
+}
+
+.quote p {
+    margin-top: 0;
+    margin-bottom:  0;
+}
